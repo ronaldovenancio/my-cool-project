@@ -62,12 +62,12 @@
   
   nav {
     display: flex;
-    gap: 8px;
+    gap: 20px;
   }
   
   .counter-footer {
     display: flex;
-    gap: 20px;
+    gap: 8px;
   }
   
   .counter-button {

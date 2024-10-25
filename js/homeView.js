@@ -18,7 +18,7 @@ function homeView() {
   });
   const invite = createElement("p", {
     textContent:
-      "Thank you for visiting Marie CThank you for choosing Marie Restaurant! We invite you to explore our diverse seafood menu and indulge in a culinary journey that celebrates the ocean's finest offerings. Join us for an unforgettable dining experience—where flavor and passion come together on every plate!",
+      "Thank you for choosing Marie Restaurant! We invite you to explore our diverse seafood menu and indulge in a culinary journey that celebrates the ocean's finest offerings. Join us for an unforgettable dining experience - where flavor and passion come together on every plate!",
     className: "intro-paragraph"
   });
 

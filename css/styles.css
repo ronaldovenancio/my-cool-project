@@ -67,7 +67,7 @@
   
   .counter-footer {
     display: flex;
-    gap: 8px;
+    gap: 20px;
   }
   
   .counter-button {

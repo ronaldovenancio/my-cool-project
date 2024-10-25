@@ -3,10 +3,10 @@ import { createElement } from "./utils";
 import { getFeaturedReceipts } from "./APIHandler";
 
 function homeView() {
-  const hero = createElement("img", {
+  /* const hero = createElement("img", {
     src: "./src/images/marierestaurant.jpeg",
     alt: "Marie Restaurante Hero Image"
-  });
+  }); */
   const title = createElement("h2", {
     textContent: "Get to Know Us!",
     className: "title-heading"
@@ -40,7 +40,7 @@ function homeView() {
 
 
   return createElement("div", {}, [
-    hero,
+   // hero,
     title,
     intro,
     invite,

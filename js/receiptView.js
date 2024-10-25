@@ -3,7 +3,7 @@ import { createElement } from "./utils";
 import { getFeaturedReceipts, getRecipeDetails } from "./APIHandler";
 
 function receiptView() {
-  const title = createElement("h2", { textContent: "Receipt Categories" });
+  const title = createElement("h2", { textContent: "Special Receipt" });
   const receiptSection = createElement("div", {
     className: "receipt-section"
   });

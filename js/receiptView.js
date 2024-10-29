@@ -9,7 +9,7 @@ function receiptView() {
   });
 
   let receipts = JSON.parse(localStorage.getItem("receipt")) || [];
-  console.log(receitps);
+  //console.log(receitps);
 
   getFeaturedReceipts().then((recipes) => {
     const groupedCategories = {

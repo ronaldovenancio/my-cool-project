@@ -60,10 +60,25 @@
     padding: 16px;
   }
   
-  nav {
-    display: flex;
-    gap: 20px;
-  }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav a {
+  font-family: var(--font-body);
+  font-size: 1em;
+  color: var(--tertiary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
   
   .counter-footer {
     display: flex;

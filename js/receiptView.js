@@ -8,6 +8,9 @@ function receiptView() {
     className: "receipt-section"
   });
 
+  let receipts = JSON.parse(localStorage.getItem("receipt")) || [];
+  console.log(receitps);
+
   getFeaturedReceipts().then((recipes) => {
     const groupedCategories = {
       withSpyce: [],

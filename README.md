@@ -4,4 +4,4 @@ Marie Restaurant
 
 https://mycoolprojectmarierestaurant.netlify.app
 
-https://671d2c5fdecd37399e35b68e--mycoolprojectmarierestaurant.netlify.app
+https://6720d7507c10010f5b8e0ec6--mycoolprojectmarierestaurant.netlify.app
